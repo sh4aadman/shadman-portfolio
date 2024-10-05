@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main {
+  height: 100vh;
+  display: flex;
+}
+figure {
+  display: flex;
+  margin: 20px 50px;
+}
+figure > img {
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+h1,
+h2,
+p {
+  cursor: default;
+}
+main header {
+  width: 40%;
+}
+#profile-name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+#profile-pronounce {
+  font-weight: 300;
+}
+#profile-tag {
+  font-size: 1rem;
+}
+header section {
+  padding: 10% 20%;
+}
+header > section > button {
+  margin-top: 4rem;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: 0;
+  padding: 10px 20px;
+}
+main section {
+  width: 60%;
+}
+#profile-bio {
+  background-color: #b4d7fe;
+  padding: 5rem 10rem;
+}
+hr {
+  margin: 2rem 0;
+  border: 1px solid;
+}
+#about-details {
+  font-weight: 300;
+  line-height: 2;
+}
+#skills {
+  background-color: black;
+  padding: 2px;
+}
+#skills a {
+  color: white;
+  text-decoration: none;
+}
+#resume-button,
+#portfolio-button {
+  background-color: #b4d7fe;
+  color: black;
+  border: 1px solid black;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-top: 5em;
+  margin-right: 3em;
+  padding: 10px 60px;
+}
+#resume-button:hover, #portfolio-button:hover {
+  color: white;
+  background-color: black;
+}
+button {
+  cursor: pointer;
+}
+#social-links {
+  width: 100%;
+}
+#social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  list-style: none;
+  margin-top: 10rem;
+  padding: 0;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: white;
+}
