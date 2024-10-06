@@ -37,6 +37,10 @@ main header {
 #profile-tag {
   font-size: 1rem;
 }
+#contact-button a {
+  text-decoration: none;
+  color: white;
+}
 header section {
   padding: 10% 20%;
 }
