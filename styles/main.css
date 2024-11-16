@@ -15,6 +15,7 @@ figure {
 figure > img {
   height: 200px;
   margin: 0 auto;
+  margin-top: 20%;
   border-radius: 10px;
 }
 h1,
@@ -93,7 +94,8 @@ a:hover {
   margin-right: 3em;
   padding: 10px 60px;
 }
-#resume-button:hover, #portfolio-button:hover {
+#resume-button:hover,
+#portfolio-button:hover {
   color: white;
   background-color: black;
 }
